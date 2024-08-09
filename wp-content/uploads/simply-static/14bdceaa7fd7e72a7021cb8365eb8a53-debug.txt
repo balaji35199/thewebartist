@@ -1,0 +1,522 @@
+[2024-08-09 07:39:55] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-09 07:39:55] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-08-09 07:39:55] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-09 07:39:56] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-09 07:39:56] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-09 07:39:56] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-09 07:39:56] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195\
+[2024-08-09 07:39:56] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/thewebartist/
+[2024-08-09 07:39:56] [class-ss-setup-task.php:137] File C:\xampp\htdocs\thewebartist\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/thewebartist/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-09 07:39:56] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-09 07:39:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-09 07:39:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-09 07:39:56] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-08-09 07:39:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/
+[2024-08-09 07:39:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-08-09 07:39:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7cc7a707-rmZm8H.tmp
+[2024-08-09 07:39:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/?simply_static_page=34
+[2024-08-09 07:39:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/?simply_static_page=34
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:103] Filesize: 84290 bytes
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7cc7a707-rmZm8H.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/index.html
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:39:57] [class-ss-page.php:118] Checking Content Identical:a622e3ee4a249f98f2018f4296d1cd29277f263a===. Value: FALSE
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/thewebartist/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-09 07:39:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-09 07:39:57] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-08-09 07:39:57] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-09 07:39:57] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-09 07:39:57] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist
+[2024-08-09 07:39:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7cdcbba1-dA7na5.tmp
+[2024-08-09 07:39:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist?simply_static_page=36
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist?simply_static_page=36
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:103] Filesize: 359 bytes
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/thewebartist/
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/sample-page/
+[2024-08-09 07:39:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-08-09 07:39:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7cdd1af0-2vnYNc.tmp
+[2024-08-09 07:39:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/sample-page/?simply_static_page=37
+[2024-08-09 07:39:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/sample-page/?simply_static_page=37
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:103] Filesize: 60047 bytes
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7cdd1af0-2vnYNc.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/sample-page/index.html
+[2024-08-09 07:39:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:39:58] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-08-09 07:39:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:39:58] [class-ss-page.php:118] Checking Content Identical:681032bf83752f9bfb0f96b3bdba305181432fc4===. Value: FALSE
+[2024-08-09 07:39:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/2024/08/09/hello-world/
+[2024-08-09 07:39:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-08-09 07:39:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7ced8473-OgUvIE.tmp
+[2024-08-09 07:39:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/2024/08/09/hello-world/?simply_static_page=38
+[2024-08-09 07:39:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/2024/08/09/hello-world/?simply_static_page=38
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:103] Filesize: 76564 bytes
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/09/hello-world/index.html
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7ced8473-OgUvIE.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/2024/08/09/hello-world/index.html
+[2024-08-09 07:39:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:39:59] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-08-09 07:39:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:39:59] [class-ss-page.php:118] Checking Content Identical:c9922cb33af657c365ab7c2be64fd0757fb82da3===. Value: FALSE
+[2024-08-09 07:39:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/author/balaji/
+[2024-08-09 07:39:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-08-09 07:39:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7cfe6505-eKD2PB.tmp
+[2024-08-09 07:39:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/author/balaji/?simply_static_page=39
+[2024-08-09 07:39:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/author/balaji/?simply_static_page=39
+[2024-08-09 07:40:00] [class-ss-url-fetcher.php:103] Filesize: 63923 bytes
+[2024-08-09 07:40:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:40:00] [class-ss-url-fetcher.php:233] New filename for static page: /author/balaji/index.html
+[2024-08-09 07:40:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7cfe6505-eKD2PB.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/author/balaji/index.html
+[2024-08-09 07:40:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:00] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-08-09 07:40:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:00] [class-ss-page.php:118] Checking Content Identical:34ff7413db00ed48467f18fe7036b7c66737ec6b===. Value: FALSE
+[2024-08-09 07:40:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/category/uncategorized/
+[2024-08-09 07:40:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-08-09 07:40:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d10e63b-ca4jnx.tmp
+[2024-08-09 07:40:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/category/uncategorized/?simply_static_page=40
+[2024-08-09 07:40:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/category/uncategorized/?simply_static_page=40
+[2024-08-09 07:40:01] [class-ss-url-fetcher.php:103] Filesize: 56661 bytes
+[2024-08-09 07:40:01] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:40:01] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-09 07:40:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d259a92-t1y4WC.tmp
+[2024-08-09 07:40:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/category/uncategorized/
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:103] Filesize: 56661 bytes
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-08-09 07:40:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d3359d0-s6u8ho.tmp
+[2024-08-09 07:40:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=41
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=41
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d3359d0-s6u8ho.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:03] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-08-09 07:40:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d363c00-Jyc0av.tmp
+[2024-08-09 07:40:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=42
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=42
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d363c00-Jyc0av.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:03] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-08-09 07:40:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d385820-OElXm8.tmp
+[2024-08-09 07:40:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=43
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=43
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d385820-OElXm8.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:03] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/blocks/navigation/view.min.js
+[2024-08-09 07:40:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d3a696c-iVaFqE.tmp
+[2024-08-09 07:40:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/blocks/navigation/view.min.js?simply_static_page=44
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/blocks/navigation/view.min.js?simply_static_page=44
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d3a696c-iVaFqE.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/blocks/navigation/view.min.js
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:03] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/feed/
+[2024-08-09 07:40:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-08-09 07:40:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d3ae202-pdh25F.tmp
+[2024-08-09 07:40:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/feed/?simply_static_page=45
+[2024-08-09 07:40:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/feed/?simply_static_page=45
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:103] Filesize: 1716 bytes
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d3ae202-pdh25F.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/feed/index.xml
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:04] [class-ss-page.php:118] Checking Content Identical:5b522e3998e28474206d3f50ff19265b9c0552d7===. Value: FALSE
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/comments/feed/
+[2024-08-09 07:40:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d45016a-181Wzf.tmp
+[2024-08-09 07:40:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/comments/feed/?simply_static_page=46
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/comments/feed/?simply_static_page=46
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:103] Filesize: 1684 bytes
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d45016a-181Wzf.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/comments/feed/index.xml
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:04] [class-ss-page.php:118] Checking Content Identical:6bfb02f7b0c0df82ca594be86c6367976b0f8e85===. Value: FALSE
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/blocks/navigation/style.min.css
+[2024-08-09 07:40:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-08-09 07:40:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d4ec9db-bnhCqm.tmp
+[2024-08-09 07:40:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/blocks/navigation/style.min.css?simply_static_page=47
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/blocks/navigation/style.min.css?simply_static_page=47
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-08-09 07:40:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d4ec9db-bnhCqm.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/blocks/navigation/style.min.css
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:05] [class-ss-page.php:118] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/blocks/image/style.min.css
+[2024-08-09 07:40:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d520f03-EpqFuK.tmp
+[2024-08-09 07:40:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/blocks/image/style.min.css?simply_static_page=48
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/blocks/image/style.min.css?simply_static_page=48
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d520f03-EpqFuK.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/blocks/image/style.min.css
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:05] [class-ss-page.php:118] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-json/
+[2024-08-09 07:40:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-08-09 07:40:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d53664e-e3CgSg.tmp
+[2024-08-09 07:40:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-json/?simply_static_page=49
+[2024-08-09 07:40:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-json/?simply_static_page=49
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 187569 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d53664e-e3CgSg.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-json/index.html
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:96441396f951fb574b04e1203b6580447ab040d7===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/xmlrpc.php
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thewebartist/xmlrpc.php
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/js/dist/interactivity.min.js
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d61c151-T21WkK.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/js/dist/interactivity.min.js?simply_static_page=51
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/js/dist/interactivity.min.js?simply_static_page=51
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d61c151-T21WkK.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/js/dist/interactivity.min.js
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d62691f-6XWemX.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=52
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=52
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d62691f-6XWemX.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d63589a-rJo8d4.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=53
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=53
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d63589a-rJo8d4.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d64111d-EtzBmf.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=54
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=54
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d64111d-EtzBmf.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d64c7ab-eaH497.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=55
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=55
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d64c7ab-eaH497.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-08-09 07:40:06] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-09 07:40:06] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-09 07:40:06] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-admin/
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d65bf43-k4RMAX.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-admin/?simply_static_page=56
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-admin/?simply_static_page=56
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/thewebartist/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fthewebartist%2Fwp-admin%2F%3Fsimply_static_page%3D56&reauth=1
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-08-09 07:40:06] [class-ss-page.php:118] Checking Content Identical:0a652bacec1842a9025b1dab17daa56906c689d5===. Value: FALSE
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/sample-page/feed/
+[2024-08-09 07:40:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-08-09 07:40:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d6f327b-mVxadI.tmp
+[2024-08-09 07:40:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/sample-page/feed/?simply_static_page=57
+[2024-08-09 07:40:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/sample-page/feed/?simply_static_page=57
+[2024-08-09 07:40:07] [class-ss-url-fetcher.php:103] Filesize: 751 bytes
+[2024-08-09 07:40:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-09 07:40:07] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-08-09 07:40:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d6f327b-mVxadI.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/sample-page/feed/index.xml
+[2024-08-09 07:40:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:07] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-08-09 07:40:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:07] [class-ss-page.php:118] Checking Content Identical:cea598247a3b5ef03abfed2d7bbca80d9543b44c===. Value: FALSE
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-json/wp/v2/pages/2
+[2024-08-09 07:40:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d807437-CkGg6o.tmp
+[2024-08-09 07:40:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-json/wp/v2/pages/2?simply_static_page=58
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-json/wp/v2/pages/2?simply_static_page=58
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:103] Filesize: 2941 bytes
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d807437-CkGg6o.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-json/wp/v2/pages/2\index.html
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:08] [class-ss-page.php:118] Checking Content Identical:77f672f144749e0ca3f8fd38fd021d9e3b564d56===. Value: FALSE
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-json/oembed/1.0/embed
+[2024-08-09 07:40:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-08-09 07:40:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d89f33b-d9hhnu.tmp
+[2024-08-09 07:40:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-json/oembed/1.0/embed?simply_static_page=59
+[2024-08-09 07:40:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-json/oembed/1.0/embed?simply_static_page=59
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/js/comment-reply.min.js
+[2024-08-09 07:40:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d93bb8e-y0n4Jz.tmp
+[2024-08-09 07:40:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/js/comment-reply.min.js?simply_static_page=60
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/js/comment-reply.min.js?simply_static_page=60
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d93bb8e-y0n4Jz.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/js/comment-reply.min.js
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:09] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/2024/08/09/hello-world/feed/
+[2024-08-09 07:40:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-08-09 07:40:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7d952c04-NGBl36.tmp
+[2024-08-09 07:40:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/2024/08/09/hello-world/feed/?simply_static_page=61
+[2024-08-09 07:40:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/2024/08/09/hello-world/feed/?simply_static_page=61
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:103] Filesize: 1699 bytes
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:233] New filename for static page: /2024/08/09/hello-world/feed/index.xml
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7d952c04-NGBl36.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/2024/08/09/hello-world/feed/index.xml
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:10] [class-ss-page.php:118] Checking Content Identical:eb059055e133c38db4ca08ccf261fe5bbad5f995===. Value: FALSE
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-includes/css/dist/block-library/common.min.css
+[2024-08-09 07:40:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7da137e8-SAEEhm.tmp
+[2024-08-09 07:40:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-includes/css/dist/block-library/common.min.css?simply_static_page=62
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-includes/css/dist/block-library/common.min.css?simply_static_page=62
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7da137e8-SAEEhm.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-includes/css/dist/block-library/common.min.css
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:10] [class-ss-page.php:118] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-json/wp/v2/posts/1
+[2024-08-09 07:40:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7da3110f-ZKlF7H.tmp
+[2024-08-09 07:40:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-json/wp/v2/posts/1?simply_static_page=63
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-json/wp/v2/posts/1?simply_static_page=63
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:103] Filesize: 1926 bytes
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7da3110f-ZKlF7H.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-json/wp/v2/posts/1\index.html
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:10] [class-ss-page.php:118] Checking Content Identical:0dc3ee71001744e67fb6d68f07ad78f602c46fe1===. Value: FALSE
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/author/balaji/feed/
+[2024-08-09 07:40:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-08-09 07:40:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7dac5f28-datGF7.tmp
+[2024-08-09 07:40:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/author/balaji/feed/?simply_static_page=64
+[2024-08-09 07:40:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/author/balaji/feed/?simply_static_page=64
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:103] Filesize: 1745 bytes
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:233] New filename for static page: /author/balaji/feed/index.xml
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7dac5f28-datGF7.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/author/balaji/feed/index.xml
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:11] [class-ss-page.php:118] Checking Content Identical:2b558ba603610cbc096eb210f16d8456c9f4660b===. Value: FALSE
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-json/wp/v2/users/1
+[2024-08-09 07:40:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7db6cbc2-kWIhLH.tmp
+[2024-08-09 07:40:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/wp-json/wp/v2/users/1?simply_static_page=65
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/wp-json/wp/v2/users/1?simply_static_page=65
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:103] Filesize: 619 bytes
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-08-09 07:40:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7db6cbc2-kWIhLH.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195/wp-json/wp/v2/users/1\index.html
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-09 07:40:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-09 07:40:11] [class-ss-page.php:118] Checking Content Identical:ca762e5918b3e8d5b888d9b356d2854033172be4===. Value: FALSE
+[2024-08-09 07:40:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-09 07:40:12] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
+[2024-08-09 07:40:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thewebartist/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fthewebartist%2Fwp-admin%2F%3Fsimply_static_page%3D56&reauth=1
+[2024-08-09 07:40:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-08-09 07:40:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thewebartist/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fthewebartist%2Fwp-admin%2F%3Fsimply_static_page%3D56&reauth=1
+[2024-08-09 07:40:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-09 07:40:12] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-09 07:40:12] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
+[2024-08-09 07:40:12] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-08-09 07:40:12] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-08-09 07:40:12] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66b5c7dc4323e-pOOZOV.tmp
+[2024-08-09 07:40:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thewebartist/1723189213?simply_static_page=0
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thewebartist/1723189213?simply_static_page=0
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:103] Filesize: 56661 bytes
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-08-09 07:40:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66b5c7dc4323e-pOOZOV.tmp to C:\xampp\htdocs\thewebartist/wp-content/uploads\simply-static\temp-files/simply-static-1-1723189195\404/index.html
+[2024-08-09 07:40:12] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-08-09 07:40:13] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-08-09 07:40:13] [class-ss-page.php:118] Checking Content Identical:ca210125dbce5a8bf59e2f923e6648f499c50381===. Value: FALSE
+[2024-08-09 07:40:13] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-08-09 07:40:13] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/sample-page
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/2024/08/09/hello-world
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/author/balaji
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/images
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/images
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/images
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/blocks/navigation
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/feed
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/comments/feed
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/blocks/navigation
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/blocks/image
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-json
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/js/dist
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-admin
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/sample-page/feed
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-json/wp/v2/pages
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/thewebartist/wp-content/uploads/simply-static/temp-files/simply-static-1-1723189195/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/thewebartist/wp-json/wp/v2/pages/2/index.html
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/js
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/2024/08/09/hello-world/feed
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-includes/css/dist/block-library
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-json/wp/v2/posts
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/thewebartist/wp-content/uploads/simply-static/temp-files/simply-static-1-1723189195/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/thewebartist/wp-json/wp/v2/posts/1/index.html
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/author/balaji/feed
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thewebartist/wp-json/wp/v2/users
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/thewebartist/wp-content/uploads/simply-static/temp-files/simply-static-1-1723189195/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/thewebartist/wp-json/wp/v2/users/1/index.html
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
+[2024-08-09 07:40:13] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
+[2024-08-09 07:40:13] [trait-can-process-pages.php:103] Total pages: 27; Pages remaining: 0
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/thewebartist\404\index.html
+[2024-08-09 07:40:13] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-08-09 07:40:13] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://balaji35199.github.io/thewebartist/" target="_blank">https://balaji35199.github.io/thewebartist/</a>
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-08-09 07:40:13] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-08-09 07:40:13] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-08-09 07:40:13] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:18
